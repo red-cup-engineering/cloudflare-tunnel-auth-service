@@ -1,0 +1,20 @@
+{
+  "name": "@red-cup-engineering/cloudflare-tunnel-auth-service",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Admit one named Cloudflare tunnel token to its fixed protected laptop path after offline structural validation.",
+  "exports": {
+    ".": "./src/admit-tunnel-token.mjs",
+    "./src/admit-tunnel-token.mjs": "./src/admit-tunnel-token.mjs"
+  },
+  "scripts": {
+    "admit-token": "node src/admit-tunnel-token.mjs",
+    "check": "node --check src/admit-tunnel-token.mjs",
+    "test": "node --test test/*.test.mjs",
+    "verify": "npm run check && npm test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
