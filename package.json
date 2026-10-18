@@ -4,6 +4,11 @@
   "private": true,
   "type": "module",
   "description": "Admit one named Cloudflare tunnel token to its fixed protected laptop path after offline structural validation.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-web-engineering-services-section.git",
+    "directory": "services/web-platform-services-section/services/cloud-services-section/services/cloudflare-services-section/services/cloudflare-tunnel-auth-service"
+  },
   "exports": {
     ".": "./src/admit-tunnel-token.mjs",
     "./src/admit-tunnel-token.mjs": "./src/admit-tunnel-token.mjs"
